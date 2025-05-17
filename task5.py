@@ -6,7 +6,7 @@ nums = list(range(1, 21))
 # используем лямбда-функции для фильтрации и обработки списка
 even_nums = list(filter(lambda x: x % 2 == 0, nums))
 increased_nums = list(map(lambda x: x + 10, even_nums))
-sorted_nums = sorted(increased_nums, reverse=True)
+sorted_nums = sorted(increased_nums, reverse=True)#сорт. получ. числа по убыванию 
 
 # выводим результаты
 print("четные числа:", even_nums)
